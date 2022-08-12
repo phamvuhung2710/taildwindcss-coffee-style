@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.vhd-top-menu-item {
+  @apply py-1 cursor-pointer hover:text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:bg-light-coffee hover:after:w-full after:h-0.5 after:w-0 after:transition-all after:duration-300 after:ease-in-out;
+}
+
+.vhd-icon {
+  @apply w-5 h-5 inline-block;
+}
+
+.vhd-badge-circle {
+  @apply text-xs text-center rounded-full px-1.5
+}
