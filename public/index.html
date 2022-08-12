@@ -8,18 +8,18 @@
   <body>
     <div id="root">
       <div
-        class="content-wrapper max-w-screen-2xl text-base mx-auto px-8 bg-slate-200 font-Karla"
+        class="px-8 mx-auto text-base content-wrapper max-w-screen-2xl font-Karla"
       >
         <header class="p-6 mx-auto">
-          <nav class="flex flex-row justify-between items-center relative">
+          <nav class="relative flex flex-row items-center justify-between">
             <div
-              class="logo basis-2/6 text-center font-semibold text-xl cursor-pointer"
+              class="text-xl font-semibold text-center uppercase cursor-pointer logo basis-2/6"
             >
-              Coffee Style.
+              Coffee
             </div>
             <ul
               id="vhd-top-menu"
-              class="basis-3/6 hidden lg:flex lg:items-center lg:justify-end lg:gap-8 uppercase text-sm text-gray-500 font-medium"
+              class="hidden text-sm font-medium text-gray-500 uppercase basis-3/6 lg:flex lg:items-center lg:justify-end lg:gap-8"
             >
               <li class="vhd-top-menu-item vhd-top-menu-item-active">
                 <a href="#" class="">Home</a>
@@ -42,7 +42,7 @@
             </ul>
 
             <ul
-              class="basis-3/6 lg:basis-1/6 flex justify-end lg:justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium"
+              class="flex items-center justify-end ml-16 text-sm font-medium text-gray-500 uppercase basis-3/6 lg:basis-1/6 lg:justify-start"
             >
               <li class="vhd-top-menu-item">
                 <a href="#" class="flex items-center">
@@ -61,7 +61,7 @@
                     />
                   </svg>
                   <span class="mx-2">Cart</span>
-                  <span class="vhd-badge-circle bg-orange-400 text-white"
+                  <span class="text-white bg-orange-400 vhd-badge-circle"
                     >10</span
                   >
                 </a>
@@ -69,7 +69,7 @@
             </ul>
 
             <div
-              class="basis-1/6 lg:hidden flex items-center cursor-pointer px-2 sm:px-8"
+              class="flex items-center px-2 cursor-pointer basis-1/6 lg:hidden sm:px-8"
             >
               <svg
                 id="vhd-toggle-top-menu-icon"
@@ -90,7 +90,29 @@
           </nav>
         </header>
         <main>
-          <div class="slider">Slider</div>
+          <div
+            class="slider h-[530px] bg-[url('./img/slider-bg.jpg')] bg-cover bg-no-repeat bg-bottom"
+          >
+            <div
+              class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50"
+            >
+              <div class="mx-16 text-center text-white">
+                <div class="mb-6 uppercase">Best Place To Buy Coffee</div>
+                <div class="mb-6 text-5xl font-medium">Coffee Mugs</div>
+                <div class="mb-8 text-lg font-medium uppercase">
+                  The most versatile furniture system ever created. Designed to
+                  fit your life, made to move and grow.
+                </div>
+                <div class="flex justify-center">
+                  <div
+                    class="px-8 py-4 text-sm font-semibold tracking-wider text-gray-900 uppercase bg-white cursor-pointer w-max hover:bg-opacity-95"
+                  >
+                    Explore our products
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="story">Story</div>
           <div class="featured-mugs">Feature Mugs</div>
           <div class="more-products">More Product</div>
