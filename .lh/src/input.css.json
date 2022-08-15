@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/input.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1660556086538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1660556193205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,6 +35,6 @@\n   @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[12px] text-center;\r\n }\r\n \r\n .vhd-button {\r\n-  \r\n-}\n\\ No newline at end of file\n+  @apply px-8 py-4 text-[12px] text-center font-semibold tracking-wider text-gray-900 uppercase bg-white cursor-pointer bottom-4 hover:bg-opacity-90;\r\n+}\r\n"
+                },
+                {
+                    "date": 1660556263224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,6 +35,6 @@\n   @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[12px] text-center;\r\n }\r\n \r\n .vhd-button {\r\n-  @apply px-8 py-4 text-[12px] text-center font-semibold tracking-wider text-gray-900 uppercase bg-white cursor-pointer bottom-4 hover:bg-opacity-90;\r\n+  @apply px-8 py-4 text-[12px] text-center font-semibold tracking-wider uppercase cursor-pointer bottom-4 hover:bg-opacity-90;\r\n }\r\n"
+                }
+            ],
+            "date": 1660556086538,
+            "name": "Commit-0",
+            "content": "@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');\r\n@tailwind base;\r\n@tailwind components;\r\n@tailwind utilities;\r\n\r\n.vhd-top-menu-expanded {\r\n  @apply absolute top-10 z-50 w-full bg-white text-center animate-slideDown;\r\n}\r\n\r\n.vhd-top-menu-item {\r\n  @apply py-1 cursor-pointer hover:text-gray-800 relative after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-coffee-200 hover:after:lg:w-full after:lg:h-0.5 after:lg:w-0 after:lg:transition-all after:lg:duration-300 after:lg:ease-in-out;\r\n}\r\n\r\n.vhd-top-menu-item-active {\r\n  @apply text-gray-800;\r\n}\r\n\r\n.vhd-icon {\r\n  @apply w-5 h-5 inline-block;\r\n}\r\n\r\n.vhd-badge-circle {\r\n  @apply text-xs text-center rounded-full px-1.5;\r\n}\r\n\r\n.vhd-subheadline {\r\n  @apply flex items-center justify-center mb-24;\r\n}\r\n\r\n.vhd-subheadline-deco-line {\r\n  @apply w-8 h-px bg-gray-200;\r\n}\r\n\r\n.vhd-subheadline-label {\r\n  @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[12px] text-center;\r\n}\r\n\r\n.vhd-button {\r\n  \r\n}"
+        }
+    ]
+}
