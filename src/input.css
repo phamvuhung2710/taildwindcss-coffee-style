@@ -34,3 +34,7 @@
 .vhd-subheadline-label {
   @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[12px] text-center;
 }
+
+.vhd-button {
+  @apply px-8 py-4 text-[12px] text-center font-semibold tracking-wider uppercase cursor-pointer bottom-4 hover:bg-opacity-90;
+}
