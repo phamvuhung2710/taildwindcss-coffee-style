@@ -8,7 +8,7 @@
 }
 
 .vhd-top-menu-item {
-  @apply py-1 cursor-pointer hover:text-gray-800 relative after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-light-coffee hover:after:lg:w-full after:lg:h-0.5 after:lg:w-0 after:lg:transition-all after:lg:duration-300 after:lg:ease-in-out;
+  @apply py-1 cursor-pointer hover:text-gray-800 relative after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-coffee-200 hover:after:lg:w-full after:lg:h-0.5 after:lg:w-0 after:lg:transition-all after:lg:duration-300 after:lg:ease-in-out;
 }
 
 .vhd-top-menu-item-active {
@@ -21,4 +21,16 @@
 
 .vhd-badge-circle {
   @apply text-xs text-center rounded-full px-1.5;
+}
+
+.vhd-subheadline {
+  @apply flex items-center justify-center mb-24;
+}
+
+.vhd-subheadline-deco-line {
+  @apply w-8 h-px bg-gray-200;
+}
+
+.vhd-subheadline-label {
+  @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[12px] text-center;
 }
